@@ -1,51 +1,51 @@
 {
-  "items": [
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "id": "1",
-      "name": "Book",
-      "description": "Item for reading and learning information"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "id": "2",
-      "name": "Television",
-      "description": "Item for watching shows and videos."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "id": "3",
-      "name": "Web browser",
-      "description": "Item for viewing internet websites."
-    },
-  ],
-  "users": [
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "id": "1",
-      "name": "Ruth Whipple",
-      "description": "I love books and reading.",
-      "itemId": "1"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "id": "2",
-      "name": "Hans Holderdoffer",
-      "description": "I don't spend that much time on Facebook...",
-      "itemId": "3"
-    },
-  ],
-  "collection": {
-    "@context": "https://schema.org/",
-    "@type": "Collection",
-    "name": "Ruth Whipple's API",
-    "creator": "ruthwhipple",
-    "about": "A collection of items that share information",
-    "url": "https://github.com/ruthwhipple/INFO246-repository"
-  }
+   "items":[
+      {
+         "@context":"https://schema.org",
+         "@type":"CreativeWork",
+         "id":"1",
+         "name":"Book",
+         "description":"Item for reading and learning information"
+      },
+      {
+         "@context":"https://schema.org",
+         "@type":"CreativeWork",
+         "id":"2",
+         "name":"Television",
+         "description":"Item for watching shows and videos."
+      },
+      {
+         "@context":"https://schema.org",
+         "@type":"CreativeWork",
+         "id":"3",
+         "name":"Web browser",
+         "description":"Item for viewing internet websites."
+      }
+   ],
+   "users":[
+      {
+         "@context":"https://schema.org",
+         "@type":"Person",
+         "id":"1",
+         "name":"Ruth Whipple",
+         "description":"I love books and reading.",
+         "itemId":"1"
+      },
+      {
+         "@context":"https://schema.org",
+         "@type":"Person",
+         "id":"2",
+         "name":"Hans Holderdoffer",
+         "description":"I don't spend that much time on Facebook...",
+         "itemId":"3"
+      }
+   ],
+   "collection":{
+      "@context":"https://schema.org/",
+      "@type":"Collection",
+      "name":"Ruth Whipple's API",
+      "creator":"ruthwhipple",
+      "about":"A collection of items that share information",
+      "url":"https://github.com/ruthwhipple/INFO246-repository"
+   }
 }
